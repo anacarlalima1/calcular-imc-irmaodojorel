@@ -49,7 +49,14 @@ const calcIMC = () => {
       document.getElementById('button').style.background = '#4682B4'
       document.getElementById('back-btn').style.background = '#4682B4'
     } else {
-      classification 
+      classification = 'Você está obeso. Se cuide!'
+      img.src = 'img/obeso.png'
+      document.getElementById('p').hidden = true;
+      document.getElementById('box').style.background = '#D8BFD8'
+      document.getElementById('altura').style.background = '#B0E0E6'
+      document.getElementById('peso').style.background = '#B0E0E6'
+      document.getElementById('button').style.background = '#4682B4'
+      document.getElementById('back-btn').style.background = '#4682B4'
     }
     
     resultado.innerHTML = `${imc} 
