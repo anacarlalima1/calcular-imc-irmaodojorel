@@ -56,7 +56,7 @@ body {
   border-radius: 10px;
   padding: 20px 15px;
   margin-bottom: 35px;
-  font-size: 1.2rem;
+  font-size: 1rem;
   outline: none;
   background-color: #FFE4E1;
   margin-left: 20px;
@@ -88,6 +88,11 @@ body {
 
 .box .right .img{
     width: 100%;
+}
+
+.box .left p{
+  margin-left: 30px;
+  margin-bottom: 10px;
 }
 
 .box .right img{
@@ -132,6 +137,11 @@ body {
 
   .box .left h1{
     margin-top: 20px;
+  }
+
+  .box .left p{
+    margin-left: 30px;
+    margin-bottom: 10px;
   }
 
   .box .left input{
