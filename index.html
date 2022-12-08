@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IMC</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <div class="container">
+
+        <div class="box" id="box">
+    
+          <div class="left">
+            <h1>Calcule o seu IMC</h1>
+            <input type="number" placeholder="Altura ex: 1,50" id="altura">
+            <input type="number" placeholder="Peso ex: 1,50" id="peso">
+            <button id="button" onclick="calcIMC()">Calcular</button>
+            <button id="back-btn">Voltar</button>
+          </div>
+          <div class="right">
+            <p id="p">Índice de Massa Corporal, conhecido pela sigla IMC, é um cálculo simples que permite medir se alguém está ou não com o peso ideal.</p>
+            <span id="resultado"></span>
+            <img src="img/icon.png" alt="" class="img" id="img">
+          </div>
+    
+        </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
